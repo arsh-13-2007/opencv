@@ -28,7 +28,7 @@ cv.imshow('simple thresholded inverse' , thresh_inverse)
 
 #  adaptive thresholding 
 
-th = cv.adaptiveThreshold(gray, 255,cv.ADAPTIVE_THRESH_GAUSSIAN_C,cv.THRESH_BINARY, 11, 2)
+th = cv.adaptiveThreshold(gray, 255,cv.ADAPTIVE_THRESH_MEAN_C,cv.THRESH_BINARY, 11, 2)
 cv.imshow('adaptive thresholding' , th)
 
 
